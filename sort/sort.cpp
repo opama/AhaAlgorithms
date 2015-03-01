@@ -12,7 +12,7 @@ int* genlist(int len)
     for(std::size_t n=0;n<len;++n)
     {
         //generate [MIN_NUM,MAX_NUM]
-        p[n]= rand()%(MAX_NUM-MIN_NUM)+ MIN_NUM;
+        p[n]= rand()%(MAX_NUM-MIN_NUM+1)+ MIN_NUM;
     }
     return p;
     //return 0;

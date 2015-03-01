@@ -1,14 +1,15 @@
 #include <iostream>
 #include "sort/sort.h"
+#include "list/list.h"
 using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    int len;
-    int ret=DoSort();
+    int ret=0;
+    ret=DoList();
     if (ret!=0)
     {
-        std::cerr<<"do fail!"<<std::endl;
+        std::cerr<<"do list fail!"<<std::endl;
     }
     return 0;
 }
